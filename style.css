@@ -16,10 +16,15 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 38px;
     font-weight: bold;
     -webkit-text-stroke: 1px white;
     -webkit-text-fill-color: transparent;
+}
+
+h4 {
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .hero-image {
@@ -58,4 +63,38 @@ h3 {
     padding: 11px 20px;
     border-radius: 30px;
    
+}
+
+.featured-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+
+.portfolio-btn {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    border: 2px solid black;
+    padding: 8px 15px;
+    border-radius: 30px;
+}
+
+.contact-box {
+    background: pink;
+    margin: 80px;
+    padding: 30px 100px;
+    border-radius: 10px;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+}
+
+.project-image {
+    width: 500px;
 }
