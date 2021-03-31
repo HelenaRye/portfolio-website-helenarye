@@ -101,3 +101,28 @@ p {
 .project-description {
     padding: 100px 60px;
 }
+
+@media (max-width: 900px) {
+    .hero-image {
+    height: 40%;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h3 {
+        font-size: 20px;;
+    }
+
+    .contact-box {
+        margin: 30px 0;
+        border-radius: 0px;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+      }
+
+}
