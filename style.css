@@ -93,8 +93,11 @@ h3 {
 
 p {
     font-size: 18px;
+    line-height: 30px;
 }
 
-.project-image {
-    width: 500px;
+
+
+.project-description {
+    padding: 100px 60px;
 }
