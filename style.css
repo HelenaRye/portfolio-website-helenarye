@@ -94,7 +94,7 @@ h3 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
 }
 
@@ -118,6 +118,10 @@ p {
     color: white;
 }
 
+.about-hero {
+    text-align: center;
+}
+
 .profile-picture {
     height: 500px;
 }
@@ -130,13 +134,17 @@ p {
     margin: 30px;
 }
 
+.spacing {
+    margin-top: 150px;
+}
+
 @media (max-width: 900px) {
     .hero-image {
     height: 70%;
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     h2 {
