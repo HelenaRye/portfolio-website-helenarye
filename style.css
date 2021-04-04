@@ -104,6 +104,16 @@ p {
     padding: 100px 60px;
 }
 
+.about-image {
+    background: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 80px;
+    padding: 30px 100px;
+    border-radius: 10px;
+    color: white;
+}
+
 @media (max-width: 900px) {
     .hero-image {
     height: 70%;
