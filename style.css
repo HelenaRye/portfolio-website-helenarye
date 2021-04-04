@@ -165,7 +165,8 @@ p {
 
     .profile-picture {
         height: 450px;
-        margin-top: 29px;
+        margin: 29px auto;
+        display: block;
     }
 
 }
