@@ -23,7 +23,7 @@ h2 {
 }
 
 h4 {
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 700;
 }
 
@@ -106,12 +106,28 @@ p {
 
 .about-image {
     background: url(/images/background.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 80px;
-    padding: 30px 100px;
-    border-radius: 10px;
+    position: relative;
+    height: 40%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
+}
+
+.profile-picture {
+    height: 500px;
+}
+
+.about-section {
+    margin-top: 130px;
+}
+
+.about-content {
+    margin: 30px;
 }
 
 @media (max-width: 900px) {
@@ -120,7 +136,7 @@ p {
     }
 
     h1 {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     h2 {
@@ -140,4 +156,16 @@ p {
         padding: 0;
         text-align: center;
       }
+
+    .about-section {
+        text-align: center;
+        padding: 0px;
+        margin: 20px 0px;
+    }
+
+    .profile-picture {
+        height: 450px;
+        margin-top: 29px;
+    }
+
 }
