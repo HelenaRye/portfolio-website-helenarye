@@ -33,9 +33,9 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     position: absolute;
 }
 
@@ -139,6 +139,11 @@ h3 {
    
 }
 
+.hero-btn:hover {
+    cursor: pointer;
+    color: white;
+}
+
 .featured-project {
     display: flex;
     justify-content: center;
@@ -155,6 +160,11 @@ h3 {
     border: 2px solid black;
     padding: 8px 15px;
     border-radius: 30px;
+}
+
+.portfolio-btn:hover {
+    cursor: pointer;
+    color: black;
 }
 
 .contact-box {
