@@ -33,7 +33,9 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 60px 200px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
     position: absolute;
 }
 
@@ -48,11 +50,10 @@ nav li {
 
 
 
-nav ul {
-    padding: 30px 0;
-    margin: 0;
-    float: right;
+.nav-links {
+    justify-content: space-around;
     display: flex;
+    width: 20%;
 }
 
 label.logo {
@@ -62,6 +63,18 @@ label.logo {
     -webkit-text-stroke: 1px white;
     -webkit-text-fill-color: transparent;
     letter-spacing: 3px;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 5px;
+    background: white;
+    margin: 5px;
 }
 
 .hero-image {
@@ -213,4 +226,35 @@ p {
         display: block;
     }
 
+}
+
+@media screen and (max-width: 768px) {
+     body {
+         overflow-x: hidden;
+     }
+    
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    
+
+    .burger {
+        display: block;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
 }
