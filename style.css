@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 font-family: 'DM Sans', sans-serif;
 margin: 0;
@@ -175,11 +179,11 @@ h3 {
     background: url(/images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 80px;
-    padding: 30px 100px;
-    border-radius: 10px;
     color: white;
+    padding: 50px 0;
 }
+
+
 
 p {
     font-size: 20px;
@@ -225,6 +229,33 @@ p {
     margin-top: 150px;
 }
 
+footer {
+    margin-top: 60px;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
 @media (max-width: 900px) {
     .hero-image {
     height: 70%;
@@ -243,10 +274,7 @@ p {
         font-size: 18px;
     }
 
-    .contact-box {
-        margin: 30px 0;
-        border-radius: 0px;
-    }
+
 
     .project-description {
         padding: 0;
