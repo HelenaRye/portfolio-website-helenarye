@@ -318,7 +318,7 @@ footer .social-links a {
     
      nav {
          justify-content: flex-end;
-         position: fixed;
+         
      }
     .nav-links{
         position: absolute;
@@ -335,9 +335,7 @@ footer .social-links a {
         transition: transform 0.5s ease-in;
     }
 
-  .hero-image {
-    position: fixed;
-  }
+ 
 
     nav li {
         margin: 0;
