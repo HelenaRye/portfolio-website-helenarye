@@ -230,7 +230,8 @@ p {
 }
 
 footer {
-    margin-top: 60px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 footer .email-link {
