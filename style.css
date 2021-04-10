@@ -201,7 +201,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 40%;
-    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,7 +301,6 @@ footer .social-links a {
     footer {
         margin: 60px 0 0 0;
     }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -319,6 +317,7 @@ footer .social-links a {
     
      nav {
          justify-content: flex-end;
+
          
      }
     .nav-links{
@@ -336,7 +335,9 @@ footer .social-links a {
         transition: transform 0.5s ease-in;
     }
 
- 
+  .about-image {
+    background-attachment: ;
+  }
 
     nav li {
         margin: 0;
