@@ -268,10 +268,20 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-     body {
+     
+    
+    html, body {
          overflow-x: hidden;
      }
+
+     body {
+         position: relative;
+     }
     
+     nav {
+         justify-content: flex-end;
+         
+     }
     .nav-links{
         position: absolute;
         right: 0px;
@@ -305,7 +315,9 @@ p {
 
     .burger {
         display: block;
+        margin: 20px 20px;
     }
+
 }
 
 .nav-active {
