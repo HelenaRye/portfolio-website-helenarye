@@ -158,27 +158,13 @@ h3 {
     font-size: 36px;
 }
 
-.portfolio-btn-projectPage {
-    margin: 0 15px;
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-    border: 2px solid black;
-    padding: 7px 20px;
-    border-radius: 30px; 
-}
-
-.portfolio-btn-projectPage:hover {
-    cursor: pointer;
-    color: black;
-}
 
 .portfolio-btn {
     text-decoration: none;
     color: black;
     font-weight: 700;
     border: 2px solid black;
-    padding: 7px 20px;
+    padding: 7px 15px;
     border-radius: 30px;
 }
 
@@ -192,7 +178,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding: 50px 0;
+    padding: 50px;
 }
 
 
@@ -302,6 +288,17 @@ footer .social-links a {
     font-size: 25px;
 }
 
+footer .opensource-link a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+footer .opensource-link {
+    opacity: 0.5;
+    text-align: center;
+}
 
 @media (max-width: 900px) {
     .hero-image {
