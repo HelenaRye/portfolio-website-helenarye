@@ -238,12 +238,19 @@ padding-right: 400px;
 .form-container input,
 .form-container textarea {
 border: none; 
-border-bottom: 1px solid black;
+border-bottom: 2px solid black;
 border-radius: 0;
 }
 
 button[type="submit"] {
     background: white;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    border: 2px solid black;
+    padding: 8px 15px;
+    border-radius: 30px;
+
 }
 
 .form-control::-webkit-input-placeholder {
