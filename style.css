@@ -81,6 +81,7 @@ nav a:hover:after {
     justify-content: space-around;
     display: flex;
     flex: 1;
+    padding: 0;
 }
 
 label.logo {
