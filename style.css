@@ -80,6 +80,7 @@ nav a:hover:after {
 .nav-links {
     justify-content: space-around;
     display: flex;
+    flex: 1;
     width: 20%;
 }
 
