@@ -86,6 +86,7 @@ nav a:hover:after {
 label.logo {
    
     font-size: 30px;
+    margin: 0 20px;
     font-weight: 700;
     line-height: 80px;
     -webkit-text-stroke: 1px white;
