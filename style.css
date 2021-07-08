@@ -91,6 +91,7 @@ label.logo {
     -webkit-text-stroke: 1px white;
     -webkit-text-fill-color: transparent;
     letter-spacing: 3px;
+    flex: 1;
 }
 
 .burger {
