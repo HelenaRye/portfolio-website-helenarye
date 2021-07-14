@@ -305,8 +305,7 @@ footer .opensource-link {
 
 @media (min-width: 1200px) {
     nav {
-        margin: 0 auto;
-        width: 80%;
+        margin: 50px auto;
     }
 }
 
