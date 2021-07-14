@@ -303,7 +303,7 @@ footer .opensource-link {
 }
 
 
-@media (min-width: 1500px) {
+@media (min-width: 1200px) {
     .nav {
         width: 80%;
     }
