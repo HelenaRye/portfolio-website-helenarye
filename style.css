@@ -302,6 +302,13 @@ footer .opensource-link {
     text-align: center;
 }
 
+
+@media (min-width: 1500px) {
+    .nav {
+        width: 80%;
+    }
+}
+
 @media (max-width: 900px) {
     .hero-image {
     height: 70%;
