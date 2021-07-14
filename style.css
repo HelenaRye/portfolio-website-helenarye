@@ -307,6 +307,7 @@ footer .opensource-link {
     nav {
         display: flex;
         justify-self: center;
+        align-items: center;
         width: 80%;
     }
 }
