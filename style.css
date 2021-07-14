@@ -306,7 +306,7 @@ footer .opensource-link {
 @media (min-width: 1200px) {
     nav {
         display: flex;
-        justify-content: center;
+        justify-self: center;
         width: 80%;
     }
 }
