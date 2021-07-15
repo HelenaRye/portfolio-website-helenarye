@@ -173,7 +173,7 @@ h3 {
 .portfolio-btn:hover {
     cursor: pointer;
     color:white;
-    background-color: black;
+    box-shadow: inset 400px 0 0 0 black;
 }
 
 .contact-box {
